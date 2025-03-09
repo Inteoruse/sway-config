@@ -42,6 +42,7 @@ echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://package
 sudo apt update && sudo apt install firefox
 
 echo creating symbolic links for configs
+mkdir -p ~/.config
 # Create symbolic links for config directories
 ln -s "$(pwd)/sway" ~/.config/sway
 ln -s "$(pwd)/wallpapers" ~/.config/wallpapers
