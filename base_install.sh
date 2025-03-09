@@ -6,7 +6,6 @@ sudo apt update
 
 echo "Installing base packages"
 sudo apt install -y \
-    wayland \
     wayland-protocols \
     libwayland-dev \
     wayland-utils \
@@ -27,7 +26,6 @@ sudo apt install -y \
     nautilus \
     wget \
     grim \
-    policykit-1-gnome \
     fonts-font-awesome \
     fonts-recommended 
 
