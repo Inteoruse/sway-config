@@ -10,7 +10,7 @@ sudo apt install -y \
     libwayland-dev \
     wayland-utils \
     xwayland \
-    gdm3 \
+    sddm \
     sway \
     swaybg \
     swaylock \
