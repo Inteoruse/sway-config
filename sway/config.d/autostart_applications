@@ -1,0 +1,13 @@
+#notifications
+exec swaync
+
+#lock screen
+exec swayidle \
+   timeout 900 ' swaylock -f -i ~/.config/wallpapers/l11PPYt.jpeg' \
+   timeout 1800 'swaymsg "output * dpms off"' \
+      resume 'swaymsg "output * dpms on"' \
+   before-sleep ' swaylock -f -i ~/.config/wallpapers/l11PPYt.jpeg'
+
+#start vpn
+exec /opt/piavpn/bin/pia-client %u --quiet
+

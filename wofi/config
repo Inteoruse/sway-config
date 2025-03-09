@@ -1,0 +1,9 @@
+[appearence]
+width = 600
+height = 400
+mode=run
+colors=colors
+key_expand=Right
+insensitive=true
+term=gnome-terminal
+hide_scroll=true
